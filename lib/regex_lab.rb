@@ -23,4 +23,4 @@ def valid_phone_number?(phone)
 
 end
 
-starts_with_a_vowel?("egg")
+starts_with_a_vowel?("fgg")
