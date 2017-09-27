@@ -1,11 +1,9 @@
 def starts_with_a_vowel?(word)
-  word_placeholder = word.match(/\b[aeiou]/)
-  puts word_placeholder
-  if word_placeholder == "a" || word_placeholder == "e" || word_placeholder == "i" || word_placeholder == "o" || word_placeholder == "u"
+  if word.match(/\b[aeiou]/) != ""
+    return true
+  else
     return false
   end
-
-  true
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
