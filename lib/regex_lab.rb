@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  word_placeholder = word.match(/\s[aeiou]/)
+  word_placeholder = word.match(/\b[aeiou]/)
   puts word_placeholder
   if word_placeholder == nil
     return false
