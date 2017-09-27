@@ -23,7 +23,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-
+  if phone.match(/^\W?\d{3}\W?\d{3}\W?\d{4}$/)
 end
 
 #starts_with_a_vowel?("egg")
