@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
   puts word
-  if word =~ /\b[aeiou]/
+  if word =~ /^[aeiou]/
     return true
   else
     return false
