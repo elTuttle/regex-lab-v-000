@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
   puts word
-  if word =~ /^[aeiou]/
+  if word =~ /^[aeiou|AEIOU]/
     return true
   else
     return false
@@ -24,7 +24,7 @@ def valid_phone_number?(phone)
 end
 
 #starts_with_a_vowel?("egg")
-match = %w{ afoot Excellent incredible Absolute unreal Inconceivable octopus }
-match.each do |word|
-  starts_with_a_vowel?(word)
-end
+#match = %w{ afoot Excellent incredible Absolute unreal Inconceivable octopus }
+#match.each do |word|
+#  starts_with_a_vowel?(word)
+#end
