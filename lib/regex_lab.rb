@@ -1,7 +1,7 @@
 def starts_with_a_vowel?(word)
   word_placeholder = word.match(/\b[aeiou]/)
   puts word_placeholder
-  if word_placeholder == nil
+  if word_placeholder == "a" || word_placeholder == "e" || word_placeholder == "i" || word_placeholder == "o" || word_placeholder == "u"
     return false
   end
 
@@ -24,4 +24,4 @@ def valid_phone_number?(phone)
 
 end
 
-starts_with_a_vowel?("egg")
+#starts_with_a_vowel?("egg")
