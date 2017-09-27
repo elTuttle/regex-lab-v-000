@@ -23,3 +23,5 @@ def valid_phone_number?(phone)
 end
 
 #starts_with_a_vowel?("egg")
+match = %w{ afoot Excellent incredible Absolute unreal Inconceivable octopus }
+puts match
