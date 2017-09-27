@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
-  if word.match(/\b[aeiou]/) != "" && word.match(/\b[aeiou]/) != nil
+  puts word
+  if word =~ /\b[aeiou]/
     return true
   else
     return false
@@ -24,4 +25,6 @@ end
 
 #starts_with_a_vowel?("egg")
 match = %w{ afoot Excellent incredible Absolute unreal Inconceivable octopus }
-puts match
+match.each do |word|
+  starts_with_a_vowel?(word)
+end
